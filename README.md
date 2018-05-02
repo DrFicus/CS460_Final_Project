@@ -32,7 +32,7 @@ We also have a directory called sampleData which contains five audio recordings 
 
 /*************************************************************************
 
-TO TEST if an audio file is encrypting, decrypting, or just performing normal processing, run the following command via the command-line, replacing ‘X’ with a number between 1 and 5:
+TO TEST if an audio file is encryption, decryption, or just normal processing, run the following command via the command-line, replacing ‘X’ with a number between 1 and 5:
 
 $ ./testClassifierModel sampleData/newRecordX.wav
 
