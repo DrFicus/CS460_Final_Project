@@ -4,7 +4,7 @@ import numpy as np
 from pyAudioAnalysis import audioTrainTest as aT
 
 script, filename = argv
-isSignificant = 0.5
+isSignificant = 0.7
 
 Result, P, classNames = aT.fileClassification(filename, "svmModel", "svm")
 winner = np.argmax(P)
